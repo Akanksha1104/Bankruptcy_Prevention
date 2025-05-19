@@ -1,14 +1,41 @@
-# Bankruptcy_Prevention
+🏦 Bankruptcy Prevention Using Machine Learning
+This project predicts whether a company is at risk of bankruptcy using supervised machine learning algorithms. By analyzing financial data, it helps identify potential red flags early, aiding in strategic planning and risk mitigation.
 
-#Business Objective:
-This is a classification project, since the variable to predict is binary (bankruptcy or non-bankruptcy). The goal here is to model the probability that a business goes bankrupt from different features.
-The data file contains 7 features about 250 companies
-The data set includes the following variables:
-1.	industrial_risk: 0=low risk, 0.5=medium risk, 1=high risk.
-2.	management_risk: 0=low risk, 0.5=medium risk, 1=high risk.
-3.	financial flexibility: 0=low flexibility, 0.5=medium flexibility, 1=high flexibility.
-4.	credibility: 0=low credibility, 0.5=medium credibility, 1=high credibility.
-5.	competitiveness: 0=low competitiveness, 0.5=medium competitiveness, 1=high competitiveness.
-6.	operating_risk: 0=low risk, 0.5=medium risk, 1=high risk.
-7.	class: bankruptcy, non-bankruptcy (target variable
+ 📊 Problem Statement
+Bankruptcy prediction is crucial for investors, creditors, and business managers. Using historical financial data of companies, the goal is to build a classification model that can predict whether a firm is likely to go bankrupt.
+
+ ✅ Objectives
+- Classify companies as **bankrupt** or **non-bankrupt**
+- Evaluate multiple ML models for best accuracy
+- Analyze feature importance for financial indicators
+
+ 🛠️ Technologies Used
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib, Seaborn
+- Jupyter Notebook
+
+ 📁 Dataset
+- Source: [UCI Machine Learning Repository - Bankruptcy Dataset](https://archive.ics.uci.edu/ml/datasets/Polish+companies+bankruptcy+data)
+- Format: CSV
+- Features: 64 financial attributes + 1 target (Bankruptcy: 0 or 1)
+
+
+
+ 🔍 Exploratory Data Analysis (EDA)
+- Null value check  
+- Class imbalance analysis  
+- Correlation heatmap  
+- Distribution plots of key features
+
+
+
+ 🤖 ML Models Used
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
 
